@@ -88,7 +88,6 @@ class MyForm(QDialog):
             else:
                 self.ui.passwordPower.setValue(0)
                 return
-
             self.ui.passwordPower.setValue(value)
         else:
             self.ui.passwordPower.setValue(0)
